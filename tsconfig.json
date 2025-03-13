@@ -1,0 +1,41 @@
+{
+  "compilerOptions": {
+    "baseUrl": "./",
+    "paths": {
+      "@components/*": [
+        "components/*"
+      ],
+      "@utils/*": [
+        "lib/utils/*"
+      ],
+      "@ui/*": [
+        "components/ui/*"
+      ],
+      "@lib/*": [
+        "lib/*"
+      ],
+      "@hooks/*": [
+        "hooks/*"
+      ]
+    },
+    "target": "ES6",
+    "module": "ESNext",
+    "declaration": true,
+    "outDir": "dist",
+    "declarationDir": "dist/types",
+    "emitDeclarationOnly": true,
+    "strict": true,
+    "jsx": "react-jsx",
+    "moduleResolution": "Node",
+  },
+  "exclude": [
+    "node_modules",
+    "dist"
+  ],
+  "include": [
+    "index.tsx",
+    "components",
+    "lib",
+    "utils"
+  ],
+}

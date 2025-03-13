@@ -1,0 +1,54 @@
+{
+  "name": "ethio-date-picker",
+  "version": "1.0.1",
+  "type": "module",
+  "main": "dist/index.js",
+  "types": "dist/types/index.d.ts",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "npx tsc && rollup -c"
+  },
+  "keywords": [
+    "ethiopian date picker",
+    "habesha date picker",
+    "ethiopian calendar",
+    "ethiopian date",
+    "amharic date picker",
+    "geez calendar",
+    "ethiopian datetime",
+    "ethiopian date converter",
+    "geez date",
+    "ethiopian time",
+    "date picker",
+    "react date picker",
+    "calendar component",
+    "react ethiopian calendar"
+  ],
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "dependencies": {
+    "@radix-ui/react-popover": "^1.1.6",
+    "@radix-ui/react-select": "^2.1.6",
+    "@radix-ui/react-slot": "^1.1.2",
+    "@radix-ui/react-tabs": "^1.1.3",
+    "@types/react": "^17.0.0",
+    "autoprefixer": "^10.4.21",
+    "class-variance-authority": "^0.7.1",
+    "clsx": "^2.1.1",
+    "dayjs": "^1.11.13",
+    "lucide-react": "^0.479.0",
+    "postcss": "^8.5.3",
+    "react": "^17.0.0",
+    "tailwind-merge": "^2.5.5"
+  },
+  "devDependencies": {
+    "@rollup/plugin-commonjs": "^28.0.3",
+    "@rollup/plugin-node-resolve": "^16.0.0",
+    "@rollup/plugin-typescript": "^12.1.2",
+    "rollup": "^4.35.0",
+    "rollup-plugin-dts": "^6.1.1",
+    "tailwindcss": "^3.4.17",
+    "typescript": "^5.8.2"
+  }
+}
