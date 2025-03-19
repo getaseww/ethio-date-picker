@@ -1,9 +1,9 @@
 {
   "name": "ethio-date-picker",
-  "version": "1.0.1",
+  "version": "1.0.4",
   "type": "module",
   "main": "dist/index.js",
-  "types": "dist/types/index.d.ts",
+  "types": "dist/index.d.ts",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "build": "npx tsc && rollup -c"
@@ -22,7 +22,8 @@
     "date picker",
     "react date picker",
     "calendar component",
-    "react ethiopian calendar"
+    "react ethiopian calendar",
+    "shadcn ethiopian calendar"
   ],
   "author": "",
   "license": "ISC",
@@ -37,6 +38,7 @@
     "class-variance-authority": "^0.7.1",
     "clsx": "^2.1.1",
     "dayjs": "^1.11.13",
+    "ethiopian-calendar-date-converter": "^2.1.4",
     "lucide-react": "^0.479.0",
     "postcss": "^8.5.3",
     "react": "^17.0.0",

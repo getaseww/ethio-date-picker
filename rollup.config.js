@@ -5,14 +5,17 @@ import dts from "rollup-plugin-dts";
 
 export default [
   {
-    input: "components/ethiopian-calendar.tsx",
-    output: [{ file: "dist/index.js", format: "es" }],
+    input: "index.tsx", 
+    output: [
+      { file: "dist/index.js", format: "es", sourcemap: true }, 
+      { file: "dist/index.cjs.js", format: "cjs", sourcemap: true } 
+    ],
     plugins: [resolve(), commonjs(), typescript()],
     external: ["react"]
   },
   {
     input: "dist/types/index.d.ts",
-    output: [{ file: "dist/types/index.d.ts", format: "es" }],
+    output: [{ file: "dist/index.d.ts", format: "es" }],
     plugins: [dts()]
   }
 ];
